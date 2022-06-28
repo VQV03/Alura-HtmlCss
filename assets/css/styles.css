@@ -1,0 +1,59 @@
+
+.tituloPrincipal {
+    padding: 20px;
+}
+
+.tituloCentralizado {
+    text-align: center;
+}
+
+.imgContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner {
+    width: 95vw;
+    margin: 5px;
+}
+
+.text {
+    padding: 30px;
+    background-color: lightgray;
+}
+
+.text p {
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
+
+.text p:nth-child(2) {
+    font-size: 20px;
+}
+
+em strong {
+    color: red;
+}
+
+.listContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.listSubContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.listSubContainer img {
+    width: 100%;
+}
+
+.list li {
+    font-style: italic;
+}
